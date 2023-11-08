@@ -42,3 +42,30 @@
     -moz-box-shadow: 0px 0px 91px 50px rgba(45, 255, 196, 0.9);
     box-shadow: 0px 0px 91px 50px rgba(45, 255, 196, 0.9);
 }
+
+.glowingRed {
+    -webkit-box-shadow: 0px 0px 105px 45px rgba(255, 46, 46, 0.9);
+    -moz-box-shadow: 0px 0px 105px 45px rgba(255, 46, 46, 0.9);
+    box-shadow: 0px 0px 105px 45px rgba(255, 46, 46, 0.9);
+}
+
+.glowingYellow {
+    -webkit-box-shadow: 0px 0px 105px 45px rgba(241, 255, 46, 0.9);
+    -moz-box-shadow: 0px 0px 105px 45px rgba(241, 255, 46, 0.9);
+    box-shadow: 0px 0px 105px 45px rgba(241, 255, 46, 0.9);
+}
+
+.glowingGreen {
+    -webkit-box-shadow: 0px 0px 105px 45px rgba(46, 255, 67, 0.9);
+    -moz-box-shadow: 0px 0px 105px 45px rgba(46, 255, 67, 0.9);
+    box-shadow: 0px 0px 105px 45px rgba(46, 255, 67, 0.9);
+}
+
+.post {
+    background: black;
+    height: 250px;
+    width: 25px;
+    display: block;
+    margin: auto;
+
+}
