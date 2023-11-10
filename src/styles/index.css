@@ -16,6 +16,7 @@
     padding: 10px;
     margin: 100px auto;
     border-radius: 15%;
+    margin-bottom: 0;
 }
 
 .lamp {
@@ -37,10 +38,9 @@
     background-color: green;
 }
 
-.glowing {
+.glowingGreen {
     -webkit-box-shadow: 0px 0px 91px 50px rgba(45, 255, 196, 0.9);
-    -moz-box-shadow: 0px 0px 91px 50px rgba(45, 255, 196, 0.9);
-    box-shadow: 0px 0px 91px 50px rgba(45, 255, 196, 0.9);
+    -moz-box-shadow: 0px 0px 91px 50px rgba(45, 255, 196, 0.9)
 }
 
 .glowingRed {
@@ -50,22 +50,48 @@
 }
 
 .glowingYellow {
-    -webkit-box-shadow: 0px 0px 105px 45px rgba(241, 255, 46, 0.9);
-    -moz-box-shadow: 0px 0px 105px 45px rgba(241, 255, 46, 0.9);
-    box-shadow: 0px 0px 105px 45px rgba(241, 255, 46, 0.9);
+    -webkit-box-shadow: 0px 0px 105px 45px rgba(244, 255, 87, 0.9);
+    -moz-box-shadow: 0px 0px 105px 45px rgba(244, 255, 87, 0.9);
+    box-shadow: 0px 0px 105px 45px rgba(244, 255, 87, 0.9);
+
 }
 
-.glowingGreen {
-    -webkit-box-shadow: 0px 0px 105px 45px rgba(46, 255, 67, 0.9);
-    -moz-box-shadow: 0px 0px 105px 45px rgba(46, 255, 67, 0.9);
-    box-shadow: 0px 0px 105px 45px rgba(46, 255, 67, 0.9);
+.redTenue {
+    background-color: #ff00008f;
 }
 
-.post {
-    background: black;
+.greenTenue {
+    background-color: #00ff9d8f;
+}
+
+.yellowTenue {
+    background-color: #d0ff008f;
+}
+
+.poste {
+    background-color: black;
     height: 250px;
     width: 25px;
     display: block;
     margin: auto;
+}
 
+.purple {
+    background-color: purple;
+}
+
+.glowingPurple {
+    -webkit-box-shadow: 0px 0px 105px 45px rgba(255, 87, 230, 0.9);
+    -moz-box-shadow: 0px 0px 105px 45px rgba(255, 87, 230, 0.9);
+    box-shadow: 0px 0px 105px 45px rgba(255, 87, 230, 0.9);
+}
+
+.trafficPurple {
+    width: 100px;
+    height: 400px;
+    background-color: black;
+    padding: 10px;
+    margin: 100px auto;
+    border-radius: 15%;
+    margin-bottom: 0;
 }
